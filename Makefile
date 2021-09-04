@@ -1,4 +1,4 @@
-KDIR ?= /lib/modules/$(shell uname -r)/build
+KDIR ?= /lib/modules/4.15.0-154-generic/build
 all:
 	$(MAKE) -C $(KDIR) M=$$PWD
 clean:
